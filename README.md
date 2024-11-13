@@ -1,14 +1,14 @@
 # WebViewer - Powerapps component sample
 
-[WebViewer](https://www.pdftron.com/webviewer) is a powerful JavaScript-based PDF Library that is part of the [Apryse SDK](https://www.pdftron.com). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate, and manipulate PDFs that can be embedded into any web project.
+[WebViewer](https://docs.apryse.com/documentation/web/) is a powerful JavaScript-based PDF Library that is part of the [Apryse SDK](https://apryse.com/). It provides a slick out-of-the-box responsive UI that interacts with the core library to view, annotate and manipulate PDFs that can be embedded into web projects.
 
 ![WebViewer UI](https://www.pdftron.com/downloads/pl/webviewer-ui.png)
 
-This repo is specifically designed for any users interested in integrating WebViewer into a [Powerapps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/create-component) component project. 
+This repo is specifically designed for any users interested in integrating WebViewer into a [Powerapps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/create-component) component project.
 
 ## Demo
 
-You can explore all of the functionality in our [showcase](https://www.pdftron.com/webviewer/demo/).
+You can explore all of the functionality in our [showcase](https://showcase.apryse.com/).
 
 ## Initial setup
 
@@ -21,7 +21,7 @@ Before you begin, make sure your development environment includes:
 ## Install
 
 ```
-git clone https://github.com/PDFTron/webviewer-powerapps-component-sample.git
+git clone https://github.com/ApryseSDK/webviewer-powerapps-component-sample.git
 cd webviewer-powerapps-component-sample
 npm install
 ```
