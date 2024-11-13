@@ -7,6 +7,7 @@ export class WebViewerControl implements ComponentFramework.StandardControl<IInp
     private pdfURI: string = "";
     private iframeWindow: Window;
     private _context: ComponentFramework.Context<IInputs>;
+    private _container: HTMLDivElement;
 
     /**
      * Empty constructor.
