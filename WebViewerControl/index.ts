@@ -40,7 +40,7 @@ export class WebViewerControl implements ComponentFramework.StandardControl<IInp
             this.iframeWindow = viewerElement.querySelector('iframe')!.contentWindow!;
         })
 
-        WebViewer({
+        WebViewer.Iframe({
             path: 'http://localhost:3000/lib',
             config: 'http://localhost:3000/config.js',
             initialDoc: context.parameters.doc.raw!,
@@ -86,7 +86,7 @@ export class WebViewerControl implements ComponentFramework.StandardControl<IInp
         {
             this._context = context;
             this.handleDocOpen(context.parameters.doc.raw!)
-        }    
+        }
     }
 
     /**
